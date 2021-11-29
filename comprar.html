@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+   <title>Document</title>
+
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/user - grey.jpg" alt="" style="width: 50px;"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Envios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marcas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catalogo</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Comprar ahora</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+   </nav>
+
+   <div class="bg-info"> 
+      <ul class="nav nav-pills nav-fill">
+         <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Carrito de compras</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link " href="#"><i class="far fa-file-alt"></i> Saber mas informacion</a>
+         </li>
+      </ul>
+   </div>
+
+
+   <section class="mt-4 container-fluid" id="infor" style="max-width: 1800px;">
+      <div class="row" >
+         <div class="col">
+            <img src="images/cell.jpg" class="mx-auto d-block mt-5" alt="" style="max-height: 500px; height: 500px; width: 70%;">
+         </div>
+         <div class="col mt-5">
+            <h1>Modelo del celular</h1>
+            <p>4GB+164GB , Gris Carbono</p>
+            <p>1000 $</p>
+
+            <div class="card" style="width: 18rem;">
+               <div class="card-body">
+                 <p class="card-text">Iva incluido</p>
+                 <p class="card-text">Facil devolucion en 20 dias</p>
+                 <p class="card-text">Garantia de 2 años</p>
+                 <p class="card-text">Envio gratuito</p>
+               </div>
+             </div>
+
+            <form class="row g-3">
+               <div class="col-12">
+                 <label for="" class="form-label">Capacidad</label><br>
+                     <input type="radio" class="btn-check" name="capacidad" id="option1" autocomplete="off">
+                     <label class="btn btn-primary" for="option1">4GB + 128GB</label>
+
+                     <input type="radio" class="btn-check" name="capacidad" id="option2" autocomplete="off">
+                     <label class="btn btn-primary" for="option2">4GB + 64GB</label>
+               </div>
+
+               <div class="col-12">
+                  <label for="" class="form-label">Color</label><br>
+                      <input type="radio" class="btn-check" name="color" id="option3" autocomplete="off">
+                      <label class="btn btn-light" for="option3">Color 1</label>
+ 
+                      <input type="radio" class="btn-check" name="color" id="option4" autocomplete="off">
+                      <label class="btn btn-dark" for="option4">Color 2</label>
+ 
+                      <input type="radio" class="btn-check" name="color" id="option5" autocomplete="off">
+                      <label class="btn btn-danger" for="option5">Color 3</label>
+                </div>
+
+               <div class="col-md-4">
+                 <label for="inputState" class="form-label">Cantidad</label>
+                 <input type="number">
+               </div>
+               <p class="col-9">Celular mas las caracteristicas escogidas</p>
+               <p class="col-3">Monto del celular</p>
+               <p class="col-9">Total</p>
+               <p class="col-3">10000$</p>
+               <div class="col-12">
+                 <button type="submit" class="btn btn-primary">Comprar ahora</button>
+               </div>
+             </form>
+         </div>
+      </div>
+   </section>
+   
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
